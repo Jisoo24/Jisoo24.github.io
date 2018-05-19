@@ -1,46 +1,69 @@
 <!doctype html>
 <html lang="ko">
-  <head>
-	<title>Jisoo</title>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <head>
+        <title>bulletin</title>
+        <meta charset="utf-8">
+        <meta name="description" content="간단 내용">
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+        <style>
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+        body {
+            background-image: url("./images/2014012906.jpg");
+        }
 
-    <style>
-		@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
-		body {
-			font-family:"Nanum Gothic";
-			text-align:center;
-		}
-		#header {
-			padding:50px;
-		}
-    </style>   
-  </head>
-  <body>
-    <div id="header">
-	<h2>지구</h2>
-	<p>지구는 자기소개 페이지를 만들어야 하는데<br>
-	씽크빅이 부족해 만들지 못하고 범식이에게 틱틱 거리고 있다.</p>
-	</div>
-	<div id="sigi">
-	<h2>범시기 == 동고</h2>
-	<p>범식이는 멋사 과제만들기에 열중하고 있다.<br>
-	무심한 척 하지만 내가 틱틱거리는 것을 다 받아주고 있다.<br>
-	<b>동고시끼</b></p>
-	</div>
-	<a href="http://blog.naver.com/toearth24"><img src="http://mblogthumb4.phinf.naver.net/20150817_83/simjangink_143973757057635Omo_JPEG/%B3%D7%C0%CC%B9%F6_%BA%ED%B7%CE%B1%D7.jpg?type=w2" alt="네이버 블로그" width="100px"></a>
-	<a href=""><img src="" alt="인스타그램" width="100px"></a>
+        .container {
+            border: 7px solid pink; 
+            border-radius: 20px;
+            height: 700px; 
+            width: 80%; 
+            margin-top: 2%;
+            overflow-y: scroll;
+            background-color: white;
+        }
+        
+        h3 {
+            text-align: center;
+
+        }
+
+        a, a:hover {
+            color: pink;
+            text-decoration: none;
+            padding-right:30px;
+        }
+        
+        section {
+            margin-top: 150px;
+        }
 
 
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div style="margin: 20px 0;">
+                <!-- 메뉴바 -->
+                <h3>
+                    <a href="#Introduction">
+                        Introduction
+                    </a>
+                    <a href="#Contact">
+                        Contact
+                    </a>
+                </h3>
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
-  </body>
+                <a id="Introduction">
+                    <section class="introduction">
+                        <img src="./images/main.jpg" width="40%" style="display: block; margin:0 auto;">
+                    </section>
+                </a>
+                <a id="Contact">
+                    <section class="contact">
+                        <img src="./images/main.jpg" width="40%" style="display: block; margin:0 auto;">
+                    </section>
+                </a>
+            </div>
+        </div>
+    </body>
 </html>
